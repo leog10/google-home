@@ -43,6 +43,7 @@ a:active {
 
 .navLinks {
   font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+  line-height: 24px;
 }
 
 #apps {
@@ -71,11 +72,12 @@ a:active {
   font-size: 14px;
   letter-spacing: 0.25px;
   font-weight: 500;
+  line-height: 16px;
   box-sizing: border-box;
   background-color: #1a73e8;
   color: #fff;
   border-radius: 4px;
-  padding: 9px 23px 8px 23px;
+  padding: 9px 23px;
   border: 1px solid transparent;
   min-width: 96px;
   text-decoration: none;
