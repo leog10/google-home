@@ -134,3 +134,82 @@ a:active {
   transition: all 0.1s ease 0.5s;
   visibility: visible;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#gLogo {
+  display: inline-block;
+  flex-grow: 0;
+  align-self: center;
+  min-height: 100px;
+  margin-top: 198px;
+}
+
+#formContainer {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  max-height: 160px;
+  padding: 20px;
+}
+
+#searchContainer {
+  display: flex;
+  width: auto;
+  max-width: 584px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin: -2px auto 0 auto;
+}
+
+#searchIco {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  margin-left: 15px;
+}
+
+#searchInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 4px 10px 1px 13px;
+  padding: 0px;
+  height: 34px;
+  font-size: 16px;
+  display: flex;
+  flex: 100%;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#inputButtonsCenter {
+  margin-top: 25px;
+}
+
+.inputSearch {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  line-height: 27px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+#footerBottom {
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 1;
+}

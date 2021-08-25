@@ -18,31 +18,37 @@
         <a href="#" id="signButton">Sign in</a>
       </div>
     </nav>
-    <main>
-      <div><img src="img/googlelogo.png" alt="Google" /></div>
-      <div>
-        <form action="">
-          <input type="text" />
-          <input type="submit" value="Google Search" />
-          <input type="submit" value="I'm Feeling Lucky" />
-        </form>
-      </div>
-      <footer>
-        <div>Argentina</div>
-        <div>
-          <div>
-            <a href="#">About</a>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a>
-          </div>
-          <div>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-          </div>
+    <div id="gLogo">
+      <img src="img/googlelogo.png" alt="Google" />
+    </div>
+    <div id="formContainer">
+      <form action="">
+        <div id="searchContainer">
+          <img src="img/search_grey_24dp.svg" id="searchIco" alt="search" />
+          <input id="searchInput" type="text" />
         </div>
-      </footer>
-    </main>
+        <center id="inputButtonsCenter">
+          <input type="submit" value="Google Search" class="inputSearch" />
+          <input type="submit" value="I'm Feeling Lucky" class="inputSearch" />
+        </center>
+      </form>
+    </div>
+    <div id="footerBottom"></div>
+    <footer>
+      <div>Argentina</div>
+      <div>
+        <div>
+          <a href="#">About</a>
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search works</a>
+        </div>
+        <div>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
