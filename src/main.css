@@ -167,7 +167,7 @@ body {
   height: 44px;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
-  margin: -2px auto 0 auto;
+  margin: 6px auto 0 auto;
 }
 
 #searchContainer:hover {
@@ -194,6 +194,19 @@ body {
   display: flex;
   flex: 100%;
   color: rgba(0, 0, 0, 0.87);
+}
+
+#rightSearchContainer {
+  display: flex;
+  margin-right: 16px;
+  flex-direction: row;
+}
+
+#micIco {
+  height: 24px;
+  width: 24px;
+  align-self: center;
+  outline: none;
 }
 
 #inputButtonsCenter {
@@ -233,13 +246,50 @@ body {
 }
 
 footer {
-  display: flex;
-  flex-shrink: 1;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  background-color: #f2f2f2;
 }
 
 @media screen and (max-width: 630px) {
   #signButton {
     padding: 9px 15px;
     min-width: 80px;
+  }
+}
+
+#country {
+  border-bottom: 1px solid #dadce0;
+  padding: 15px 30px;
+  color: #6f6f6f;
+  font-size: 15px;
+}
+
+#footerLinksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footerLinks {
+  color: #70757a;
+  display: flex;
+  padding: 15px;
+}
+
+#footerRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerLeft {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+  #footerLinksContainer {
+    justify-content: space-evenly;
   }
 }
